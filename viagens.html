@@ -33,11 +33,12 @@
             <div class="name">DIA 01</div>
             <div class="data">30/10/2021</div>
             <div class="actions">
-                <a href="viagens.html" class="button-edit"><img src="images/edit-24.svg" ></a>
+                <a href="#" onclick="PlanerOn.open()" class="button-edit"><img src="images/edit-24.svg" ></a>
                 <button class="delete"><img src="images/trash-24.svg" onclick="ModalDelete.open()"></button>
             </div>
         </div>
-        <section id="transaction">
+        
+        <section class="planer">
             <h2 class="sr-only">Passeios</h2>
             <a href="#" class="button new" onclick="Modal.open()">+ Novo Passeio</a>
             <table id="data-table">
@@ -63,7 +64,7 @@
             </table>
         </section>
         
-        <section id="transaction">
+        <section class="planer">
             <h2 class="sr-only">Gastos</h2>
             <a href="#" class="button new" onclick="Modal.open()">+ Novo Gasto</a>
             <table id="data-table">
@@ -89,7 +90,7 @@
             </table>
         </section>
 
-        <section id="transaction">
+        <section class="planer">
             <h2 class="sr-only">Cidades</h2>
             <a href="#" class="button new" onclick="Modal.open()">+ Novo Cidade</a>
             <table id="data-table">
@@ -135,6 +136,7 @@
             </table>
         </section>
     
+<script src="script.js"></script>
         
 </body>
 </html>

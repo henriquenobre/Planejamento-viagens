@@ -1,8 +1,15 @@
 
-#trasaction{
+.planer.on{
     display: block;
     width: 100%;
     overflow-x: auto;
+    visibility: visible;
+    opacity: 1;
+}
+
+.planer{
+    visibility: hidden;
+    opacity: 0;
 }
 
 #data-table {

@@ -14,3 +14,12 @@ const Modaladd ={
         document.querySelector('.modal-add').classList.remove('on')
     }
 }  
+
+const PlanerOn ={
+    open(){
+        document.querySelector('.planer').classList.add('on')    
+    },
+    close(){
+        document.querySelector('.planer').classList.remove('on')
+    }
+}  
