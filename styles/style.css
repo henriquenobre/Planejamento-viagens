@@ -1,0 +1,117 @@
+/* global remove user-agent styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html{
+    font-size: 93.75%;
+    font-family: Poppins, sans-serif;
+    background: #F0F2F5;
+}
+
+header {
+    background: #41414C;
+    padding: 2rem 0 8rem;
+    text-align: center;
+}
+
+header h2 {
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+  }
+
+header #separator {
+    background: #787880;
+    width: min(90vw, 800px);
+    margin : 1rem auto auto auto;
+    height: 1px;
+}
+
+header .totais{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: min(90vw, 800px);
+    margin: auto;
+    margin-top: 2rem;
+    color: white;
+}  
+
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info > div {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin-right: 2.5rem; /* 40px of 16px root*/
+  }
+
+  .info > div > strong {
+    display: block;
+    
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.625rem; /* 26px of 16px root*/
+  }
+
+  .container{
+    width: min(90vw, 800px);
+    margin: auto;
+    margin-top: -2rem;
+  }
+
+.card {
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    align-items: center;
+    margin-bottom:  0.5rem;
+    position: relative;
+    background: #FCFDFF;
+    border-radius: 0.313rem;
+    border: 1px solid #E1E3E6;
+    color: #5A5A66;
+    padding: 1.5rem;
+    text-align: left;
+    color: #5A5A66;
+    font-weight: 700;
+      }
+.card:hover {
+    background: 
+    linear-gradient(90deg, rgba(250, 156, 45, 0.1) 0.45%, rgba(252, 253, 255, 0.1) 31.4%),white;
+}
+
+.actions{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.delete{
+  margin-left: 1rem;
+}
+
+ 
+
+  form{
+      margin-bottom: 2rem;
+  }
+
+
+
+ .input-group{
+     display: flex;
+     align-items: center;
+     margin-top: 2rem;
+ }
+
+ .button.save{
+     background: yellowgreen;
+ }

@@ -1,0 +1,113 @@
+
+.modal-delete {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .modal-delete.on {
+    height: 100vh;
+    width: 100vw;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+    background: rgba(0, 0, 0, 0.8);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .modal-add {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .modal-add.on {
+    height: 100vh;
+    width: 100vw;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+    background: rgba(0, 0, 0, 0.8);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .modal {
+    background: #F0F2F5;
+  
+    border-radius: 0.313rem;
+  
+    padding: 2.5rem;
+  
+    text-align: center;
+  
+    color: #787880;
+  }
+  
+  .modal img {
+    margin-bottom: 2rem;
+  }
+  
+  .modal h3 {
+    color: #5A5A66;
+  
+    
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.625rem;
+  
+    margin-bottom: .5rem;
+  }
+  
+  .modal p {
+    margin-bottom: 2rem;
+  }
+  
+  .modal footer button {
+    padding: 0.75rem 3rem;
+    border-radius: 0.313rem;
+    border: none;
+    
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+    text-transform: uppercase;
+  
+    transition: all .2s;
+  
+    cursor:pointer;
+  }
+  
+  .modal footer button + button {
+    margin-left: .5rem;
+  }
+  
+  .modal footer button:nth-child(1) {
+    color: #787880;
+    background: #E1E3E5;
+  }
+  
+  .modal footer button:nth-child(1):hover {
+    background: #ECEEF0;
+  }
+  
+  .modal input{
+    margin-left: 1rem;
+    border: none;
+    border-radius: .2rem;
+    padding: .8rem;
+    width: 100%;
+ }

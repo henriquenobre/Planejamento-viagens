@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/modal.css">
+    <link rel="stylesheet" href="styles/button.css">
+    <title>Viagens</title>
+</head>
+<body>
+    <header>
+        <h2>Viagens</h2>
+        <div id="separator"></div>
+        <div class="totais">
+            <section class="info">
+                <div id="qtdv"><strong>3</strong>Viagens</div>
+                <div id="kmtotal"><strong>2000</strong>km</div>
+                <div id="cidadesTotal"><strong>15</strong>cidades</div>
+            </section>
+
+            <button class="button" onclick="Modaladd.open()"><img src="images/plus-24.svg" alt=""> Adcionar nova viagem</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <div class="name">Estrada Real</div>
+            <div class="data">30/10/2021</div>
+            <div class="actions">
+                <a href="viagens.html" class="button-edit"><img src="images/edit-24.svg" ></a>
+                <button class="delete"><img src="images/trash-24.svg" onclick="ModalDelete.open()"></button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="name">Capitólio</div>
+            <div class="data">05/01/2020</div>
+            <div class="actions">
+                <a href="viagens.html" class="button-edit"><img src="images/edit-24.svg" alt=""></a>
+                <button class="delete"><img src="images/trash-24.svg" onclick="ModalDelete.open()"></button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="name">Tiradentes</div>
+            <div class="data">06/07/2019</div>
+            <div class="actions">
+                <a href="viagens.html" class="button-edit"><img src="images/edit-24.svg" alt=""></a>
+                <button class="delete"><img src="images/trash-24.svg" onclick="ModalDelete.open()"></button>
+            </div>
+        </div>
+    </div>
+   
+    <div class="modal-add">
+        <div class="modal">
+            <h3>Adcionar viagem</h3>
+            <form action="" onsubmit="Form.submit(event)" autocomplete="off">
+                <div class="input-group">
+                    <label for="description" autocomplete="off">Nome</label>
+                    <input type="text" name="description" id="description" autocomplete="off" placeholder="Digite o nome da viagem">
+                </div>
+                <div class="input-group">
+                    <label class="sr-only" for="date">Data</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                </form>
+                <footer>
+                    <a 
+                      class="button gray" 
+                      onclick="Modaladd.close()">Cancelar</a>
+                    <button
+                      class="button save"
+                      >Salvar</button>
+                  </footer>
+            </div>
+    </div>
+
+    <div class="modal-delete">
+        <div class="modal">
+          <h3>Excluir Viagem</h3>
+          <p>Quer mesmo excluir essa viagem? <br/>
+          Ela será apagado para sempre.  
+          <p>
+          <footer>
+            <a 
+              class="button gray" 
+              onclick="ModalDelete.close()">Cancelar</a>
+            <button
+              class="button red"
+              type="submit"
+              form="delete-job">Excluir</button>
+          </footer>
+        </div>
+        <form 
+          method="post" 
+          action="/job/delete" 
+          id="delete-job"></form>
+      </div>
+      
+      <script src="script.js"></script>
+
+</body>
+</html>

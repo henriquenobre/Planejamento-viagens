@@ -1,0 +1,51 @@
+
+header button {
+    display: flex;
+    align-items: center;
+    background: #F1972C;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.35rem;
+}
+
+header button:hover{
+    background: #FA9C2D;
+}
+
+ 
+.button.red{
+    background: #EB3B35;
+  }
+  
+  .button.red{
+    background: #FA3F38;
+  }
+  .button {
+    padding: 0.75rem 1rem;
+    border-radius: 0.313rem;
+    border: 0;
+  
+    
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  
+    transition: all .2s;
+  
+    cursor:pointer;
+  
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+  }
+
+  .button.gray {
+    color: #787880;
+    background: #E1E3E5;
+  }
+
+  .button.save{
+    background: yellowgreen;
+}
