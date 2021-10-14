@@ -68,6 +68,12 @@ header .totais{
     margin-top: -2rem;
   }
 
+  .containerInfo{
+    width: min(90vw, 800px);
+    margin: auto;
+    margin-top: 1rem;
+  }
+
 .card {
     display: grid;
     grid-template-columns: 40% 30% 30%;

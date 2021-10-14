@@ -33,11 +33,11 @@
             <div class="name">DIA 01</div>
             <div class="data">30/10/2021</div>
             <div class="actions">
-                <a href="#" onclick="PlanerOn.open()" class="button-edit"><img src="images/edit-24.svg" ></a>
+                <a href="#" onclick="PlanerOn.open1()" class="button-edit"><img src="images/edit-24.svg" ></a>
                 <button class="delete"><img src="images/trash-24.svg" onclick="ModalDelete.open()"></button>
             </div>
         </div>
-        
+        <div id="viagensInfo1">
         <section class="planer">
             <h2 class="sr-only">Passeios</h2>
             <a href="#" class="button new" onclick="Modal.open()">+ Novo Passeio</a>
@@ -135,7 +135,118 @@
                 </tbody>
             </table>
         </section>
+    </div>
+
+    <div class="containerInfo">
+        <div class="card">
+            <div class="name">DIA 02</div>
+            <div class="data">30/10/2021</div>
+            <div class="actions">
+                <a href="#" onclick="PlanerOn.open2()" class="button-edit"><img src="images/edit-24.svg" ></a>
+                <button class="delete"><img src="images/trash-24.svg" onclick="ModalDelete.open()"></button>
+            </div>
+        </div>
+        <div id="viagensInfo2">
+        <section class="planer">
+            <h2 class="sr-only">Passeios</h2>
+            <a href="#" class="button new" onclick="Modal.open()">+ Novo Passeio</a>
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Descrição</th>
+                        <th>valor</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="description">Basílica Nossa senhora da piedade</td>
+                        <td class="td expense">10,00</td>
+                        <td><img onclick="" src="images/minus.svg" alt=""></td>
+                    </tr>   
+                    <tr>
+                        <td class="description">Museu do ouro</td>
+                        <td class="td expense">10,00</td>
+                        <td><img onclick="" src="images/minus.svg" alt=""></td>
+                    </tr>   
+                </tbody>
+            </table>
+        </section>
+        
+        <section class="planer">
+            <h2 class="sr-only">Gastos</h2>
+            <a href="#" class="button new" onclick="Modal.open()">+ Novo Gasto</a>
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Descrição</th>
+                        <th>valor</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="description">Hospedagem</td>
+                        <td class="td expense">75,00</td>
+                        <td><img onclick="" src="images/minus.svg" alt=""></td>
+                    </tr>   
+                    <tr>
+                        <td class="description">Almoço</td>
+                        <td class="td expense">15,00</td>
+                        <td><img onclick="" src="images/minus.svg" alt=""></td>
+                    </tr>   
+                </tbody>
+            </table>
+        </section>
+
+        <section class="planer">
+            <h2 class="sr-only">Cidades</h2>
+            <a href="#" class="button new" onclick="Modal.open()">+ Novo Cidade</a>
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Descrição</th>
+                        <th>KMs</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="description">Caeté</td>
+                        <td class="td expense">476</td>
+                        <td><img onclick="" src="images/minus.svg" alt=""></td>
+                    </tr>   
+                    <tr>
+                        <td class="description">Sabará</td>
+                        <td class="td expense">27,2</td>
+                        <td><img onclick="" src="images/minus.svg" alt=""></td>
+                    </tr>   
+                    <tr>
+                        <td class="description">Nova lima</td>
+                        <td class="td expense">16,5</td>
+                        <td><img onclick="" src="images/minus.svg" alt=""></td>
+                    </tr>  
+                    <tr>
+                        <td class="description">Rio acima</td>
+                        <td class="td expense">15,9</td>
+                        <td><img onclick="" src="images/minus.svg" alt=""></td>
+                    </tr>  
+                    <tr>
+                        <td class="description">Glaura</td>
+                        <td class="td expense">58,4</td>
+                        <td><img onclick="" src="images/minus.svg" alt=""></td>
+                    </tr>  
+                    <tr>
+                        <td class="description">Ouro Preto</td>
+                        <td class="td expense">34</td>
+                        <td><img onclick="" src="images/minus.svg" alt=""></td>
+                    </tr>  
+                </tbody>
+            </table>
+        </section>
+    </div>
     
+   
 <script src="script.js"></script>
         
 </body>

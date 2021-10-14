@@ -16,10 +16,29 @@ const Modaladd ={
 }  
 
 const PlanerOn ={
-    open(){
-        document.querySelector('.planer').classList.add('on')    
+    open1(){
+        const addClass = document.querySelector('#viagensInfo1')
+        const removeClass = document.querySelector('.on')
+
+        if (addClass){
+            addClass.classList.add('on')
+        }
+        
+        if(removeClass){
+            removeClass.classList.remove('on')
+        }
+        
     },
-    close(){
-        document.querySelector('.planer').classList.remove('on')
+    open2(){
+        const addClass = document.querySelector('#viagensInfo2')
+        const removeClass = document.querySelector('.on')
+
+        if (addClass){
+            addClass.classList.add('on')
+        }
+        
+        if(removeClass){
+            removeClass.classList.remove('on')
+        }
     }
 }  

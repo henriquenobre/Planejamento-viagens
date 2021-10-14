@@ -1,16 +1,26 @@
+#viagensInfo1.on{
+    display: inline;
+}
 
-.planer.on{
-    display: block;
-    width: 100%;
-    overflow-x: auto;
-    visibility: visible;
-    opacity: 1;
+#viagensInfo1{
+    display: none;
+}
+
+#viagensInfo2.on{
+    display: inline;
+}
+
+#viagensInfo2{
+    display: none;
 }
 
 .planer{
-    visibility: hidden;
-    opacity: 0;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
 }
+
+
 
 #data-table {
     width: 100%;
