@@ -2,6 +2,7 @@
 .modal-delete {
     visibility: hidden;
     opacity: 0;
+    display: none;
   }
   
   .modal-delete.on {
@@ -25,6 +26,7 @@
   .modal-add {
     visibility: hidden;
     opacity: 0;
+    display: none;
   }
   
   .modal-add.on {
