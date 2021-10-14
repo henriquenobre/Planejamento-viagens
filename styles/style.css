@@ -17,6 +17,11 @@ header {
     text-align: center;
 }
 
+header img {
+  height: 2rem;
+  width: 2rem;
+}
+
 header h2 {
     text-align: center;
     margin-top: 2rem;
